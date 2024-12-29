@@ -4,8 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research Publications</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, ul, p {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        li a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <h1>Research Publications</h1>
         <nav>
@@ -13,13 +78,24 @@
             <a href="publications.html">Research Publications</a>
         </nav>
     </header>
-    <div>
+
+    <!-- Main Content -->
+    <div class="container">
         <h1>My Research Publications</h1>
         <ul>
-            <li>Publication 1 - Description</li>
-            <li>Publication 2 - Description</li>
+            <li>
+                <strong>Publication Title 1</strong> - <em>Journal Name</em>, Year. 
+                <a href="#" target="_blank">Read More</a>
+            </li>
+            <li>
+                <strong>Publication Title 2</strong> - <em>Journal Name</em>, Year. 
+                <a href="#" target="_blank">Read More</a>
+            </li>
+            <li>
+                <strong>Publication Title 3</strong> - <em>Conference Name</em>, Year. 
+                <a href="#" target="_blank">Read More</a>
+            </li>
         </ul>
     </div>
 </body>
 </html>
-
